@@ -1,0 +1,66 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    hr {
+        margin: 20px 0 20px 0;
+        width: 20%;
+        height: 2px;
+        border:none;
+        background-color: black;
+    }
+
+    .counter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+        &-btn {
+                display: flex;
+                gap: 20px;
+                
+                button {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 100%;
+                    background-color: transparent;
+                    font-size: 20px;
+                    cursor: pointer;
+                }
+        }
+
+        .counter-num {
+            font-size: 20px;
+            text-transform: capitalize;
+        }
+    }
+}
+
+.container-dark {
+    background-color: black;
+
+    hr {
+        background-color: white;
+    }
+
+    .counter {
+
+        &-btn {
+                
+                button {
+                    border: 2px solid white;
+                    color: white;
+                }
+        }
+
+        .counter-num {
+            color: white;
+        }
+    }
+}

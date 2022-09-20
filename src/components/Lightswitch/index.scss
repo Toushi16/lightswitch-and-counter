@@ -1,0 +1,52 @@
+.switcher-light {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 3px solid black;
+    border-radius: 6px;
+    padding: 10px;
+    height: 180px;
+
+    & button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+
+        & img {
+            height: 80px;
+        }
+    }
+
+    & h3 {
+        font-family: 'Courier New', Courier, monospace;
+        text-transform: capitalize;
+    }
+
+}
+
+.switcher-dark {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 3px solid white;
+    border-radius: 6px;
+    padding: 10px;
+    height: 180px;
+
+    & button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+
+        & img {
+            height: 80px;
+        }
+    }
+
+    & h3 {
+        font-family: 'Courier New', Courier, monospace;
+        text-transform: capitalize;
+        color: white;
+    }
+
+}
